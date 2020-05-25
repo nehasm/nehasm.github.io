@@ -1,0 +1,219 @@
+.main-body {
+    background-color:#070707;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 30px;
+    padding-bottom:30px ;
+    height: 100%;
+    display:block;
+    /* min-width: 350px; */
+    font-family: "Segoe UI";
+}
+@media only screen and (max-width: 1000px) {
+    .main-body {
+      padding-right: 150px;
+      padding-left: 150px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .main-body {
+      padding-right: 120px;
+      padding-left: 120px;
+    }
+  }
+@media only screen and (max-width: 700px) {
+    .main-body {
+      padding-right: 95px;
+      padding-left: 95px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .main-body {
+      padding-right: 70px;
+      padding-left: 70px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .main-body {
+      padding-right: 40px;
+      padding-left: 40px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .main-body {
+      padding-right: 20px;
+      padding-left: 20px;
+      /* max-width: 320 px; */
+
+    }
+}
+.image {
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+img{
+  border-radius: 40%;
+  border: 2px solid;
+  border-color: #ECF509;
+
+}
+.fa,.far {
+  padding-right: 10px;
+}
+.column{
+  float:left;
+  width: 50%;
+}
+h1,h2,.resume {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .image {
+    text-align:center;
+  }
+}
+.name-container {
+    color:#E0D6D6;
+}
+.about-me {
+    color: #E0D6D6;
+}
+.skills{
+    color: #E0D6D6;
+}
+.projects{
+    color: #E0D6D6;
+}
+.resume{
+    color: #E0D6D6;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+H1,H2 {
+    color:#ECF509;
+}
+.about-last-p{
+  margin-bottom: 35px;
+}
+.project-last-p{
+  margin-bottom: 35px;
+}
+.resume-box{
+  border: 0.2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;  
+  padding-right: 35px;
+  border-color:rgba(236,245,9,0.5);
+}
+.skills-box{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 50px;
+  grid-column-gap: 150px;
+  grid-row-gap: 20px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.skill-name{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 0.02px solid;
+  border-color:rgba(236,245,9,0.4);
+  border-width: thin;
+}
+hr.thin {
+  height: 0.3px;
+  border: 0;
+  color:rgba(236,245,9,0.5);
+  background-color:rgba(236,245,9,0.2);
+  width: 100%;
+}
+@media only screen and (max-width: 1400px) {
+  .skills-box{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 115px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .skills-box{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 80px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .skills-box{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 70px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .skills-box{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 55px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .skills-box{
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 40px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .skills-box{
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 30px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .skills-box{
+    /* grid-template-columns: auto auto auto; */
+    grid-column-gap: 35px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .skills-box{
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .skills-box{
+    /* grid-template-columns: auto auto; */
+    grid-column-gap: 20px;
+    margin-left: 40px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .skills-box{
+    /* grid-template-columns: auto auto auto auto; */
+    grid-column-gap: 15px;
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .skills-box{
+    /* grid-template-columns: auto auto auto auto; */
+    grid-column-gap: 10px;
+    margin-left: 30px;
+  }
+}
+.social-a{
+  color:#E0D6D6;
+}
